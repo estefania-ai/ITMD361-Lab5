@@ -1,0 +1,40 @@
+#planets {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-collapse: collapse;
+    width: 75%
+}
+
+#planets td {
+    border: 1px solid #ddd;
+}
+
+#planets th {
+    border: 2px solid rgb(15, 15, 15);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1f2c47;
+    color: white;
+}
+
+#planets tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#planets tr:nth-child(odd) {
+    background-color: #f2f2f2d5;
+}
+
+#planets tr:hover {
+    background-color: #ddd;
+}
+
+body {
+    background-image: url("media/style.jpeg");
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
